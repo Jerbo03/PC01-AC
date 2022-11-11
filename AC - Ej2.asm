@@ -9,7 +9,7 @@ xor ax, 02Ah ;0000 0000 0010 1010
 
 ; Borre los bits pares desde el D6 hasta el D2
 mov ax, 0F0h ;0000 0000 1111 0000
-and ax, 0ABh ;0000 0000 1010 1011
+and ax, 0FFABh ;0000 0000 1010 1011
 ;R: AX: 0A0h  0000 0000 1010 0000 
 
 ; Coloque en 1 los bits D7 y D0
